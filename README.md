@@ -1,89 +1,84 @@
 # 🧠 TalentIQ AI
 
-AI-powered candidate ranking and discovery system built for intelligent recruitment. TalentIQ AI goes beyond keyword matching by using semantic search, hybrid scoring, and explainable AI to identify candidates who genuinely fit a role.
+AI-powered candidate ranking system that helps recruiters identify the best-fit candidates using semantic search, hybrid scoring, and explainable AI.
 
 ---
 
-## 🚀 Problem Statement
+## 🚀 Overview
 
-Traditional applicant tracking systems rely heavily on keyword matching, often overlooking strong candidates whose profiles may not contain exact keywords from a job description.
+Traditional applicant tracking systems rely heavily on keyword matching and often miss qualified candidates whose profiles do not contain exact job description keywords.
 
-TalentIQ AI addresses this challenge by understanding the meaning and context of both job descriptions and candidate profiles, enabling recruiters to discover the most relevant candidates efficiently.
+TalentIQ AI addresses this problem by understanding the semantic meaning of job descriptions and candidate profiles. Instead of simple keyword filtering, the system evaluates candidates using a combination of semantic relevance, professional experience, skill alignment, and behavioral signals.
 
 ---
 
 ## ✨ Key Features
 
-* Semantic candidate matching using vector embeddings
-* Hybrid ranking engine combining multiple candidate signals
-* Experience-based scoring
-* Skill relevance analysis
+* Semantic candidate matching using Sentence Transformers
+* Hybrid AI ranking engine
+* Experience relevance scoring
+* Skill alignment analysis
 * Behavioral signal evaluation
 * Explainable AI recommendations
 * Interactive Streamlit dashboard
-* Scalable architecture supporting large candidate datasets
+* Supports ranking across 100,000 candidate profiles
+
+---
+
+## 📊 Dataset
+
+* Candidate Profiles: 100,000
+* Embedding Model: all-MiniLM-L6-v2
+* Ranking Method: Hybrid AI Scoring
+* Runtime: ~10–15 seconds on CPU
 
 ---
 
 ## 🏗️ System Architecture
 
+```text
 Job Description
-
-↓
+       ↓
 JD Parser
-
-↓
-
-SentenceTransformer Embeddings
-
-↓
-
-Semantic Similarity Engine
-
-↓
-
-Hybrid Ranking Engine
-
-├── Experience Score (25%)
-
-├── Skill Score (20%)
-
-├── Behaviour Score (15%)
-
-└── Semantic Match Score (40%)
-
-↓
-
+       ↓
+Sentence Transformer Embeddings
+       ↓
+Semantic Similarity Search
+       ↓
+Hybrid Scoring Engine
+       ├── Semantic Score (40%)
+       ├── Experience Score (25%)
+       ├── Skill Score (20%)
+       └── Behaviour Score (15%)
+       ↓
 Candidate Ranking
+       ↓
+Explainable AI Insights
+```
 
-↓
+### Ranking Formula
 
-Explainable AI Dashboard
-
----
-
-## 🧠 Ranking Methodology
-
-Each candidate receives a final score based on four components:
-
-**Semantic Score (40%)**
-Measures contextual similarity between the job description and candidate profile using Sentence Transformers.
-
-**Experience Score (25%)**
-Evaluates relevance of previous roles and career history.
-
-**Skill Score (20%)**
-Measures overlap between candidate skills and required job skills.
-
-**Behaviour Score (15%)**
-Uses recruiter engagement and platform activity signals to assess candidate quality.
-
+```text
 Final Score =
-
 0.40 × Semantic Score +
 0.25 × Experience Score +
 0.20 × Skill Score +
 0.15 × Behaviour Score
+```
+
+---
+
+## 🧠 Explainable AI
+
+For every shortlisted candidate, TalentIQ AI provides:
+
+* Key strengths
+* Relevant skills
+* Career highlights
+* Recruiter engagement insights
+* Potential fit indicators
+
+This helps recruiters understand why a candidate was recommended.
 
 ---
 
@@ -133,29 +128,29 @@ streamlit run app.py
 * Sentence Transformers
 * NumPy
 * Pandas
-* Plotly
 * Scikit-Learn
+* PyTorch
 
 ---
 
-## 📊 Output
+## 📈 Output
 
 The system generates:
 
 * Ranked candidate shortlist
 * Candidate score breakdown
-* AI-generated recruiter insights
-* Exportable ranked candidate CSV
+* Explainable AI insights
+* Exportable CSV output
 
 ---
 
-## 🔮 Future Enhancements
+## 🔮 Future Improvements
 
-* FAISS vector indexing for faster retrieval
-* Multi-language job description support
+* FAISS vector indexing
+* Multi-language support
 * Resume PDF parsing
 * LLM-powered candidate summaries
-* Real-time recruiter feedback loop
+* Feedback-driven ranking optimization
 
 ---
 
@@ -163,4 +158,4 @@ The system generates:
 
 **Ishita Das**
 
-Built as part of an AI Recruitment Challenge focused on intelligent candidate discovery and ranking.
+Built for an AI Recruitment Challenge focused on intelligent candidate discovery, ranking, and explainable hiring recommendations.
