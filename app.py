@@ -239,10 +239,15 @@ with st.sidebar:
     st.info("""
 ### Features
 🧠 Semantic Search
+            
 📊 Hybrid Ranking
+            
 🎯 Skill Matching
+            
 💬 Explainable AI
+            
 ⚡ Lightning Fast
+            
 📈 Recruiter Dashboard
 """)
     st.caption("TalentIQ AI • Hackathon Edition")
@@ -287,6 +292,34 @@ if st.button("🚀 Analyze Candidates"):
     time.sleep(0.3)
     status.info("🔍 Running Semantic Search...")
     results = rank_candidates(candidates, job_description)
+    import pandas as pd
+    submission_rows = []
+    for rank, candidate_score in enumerate(results[:100], start=1):
+        candidate_id = candidate_score["candidate_id"]
+        candidate = next(
+        c for c in candidates
+        if c["candidate_id"] == candidate_id
+        )
+
+        reasons = explain_candidate(
+        candidate,
+        candidate_score
+        )
+
+        submission_rows.append({
+        "candidate_id": candidate_id,
+        "rank": rank,
+        "score": round(
+            candidate_score["final_score"] / 100,
+            3
+        ),
+        "reasoning": "; ".join(reasons[:3])
+    })
+    submission_df = pd.DataFrame(submission_rows)
+    submission_df.to_csv(
+    "ranked_candidates.csv",
+    index=False
+    )
     progress.progress(80)
     time.sleep(0.3)
     status.info("📊 Calculating Hybrid Scores...")
@@ -333,7 +366,7 @@ font-weight:bold;
     total_candidates = len(candidates)
     c1,c2,c3,c4 = st.columns(4)
     with c1:
-        dashboard_card("👥 Candidates","5,000","#3B82F6")
+        dashboard_card("👥 Candidates","1,00,000","#3B82F6")
     with c2:
         dashboard_card("🏆 Best Match",f"{top_score:.1f}%","#10B981")
     with c3:
@@ -453,14 +486,14 @@ font-weight:bold;
     st.markdown("""
     # 🏆 Talent Leaderboard
 
-    **Top 10 AI Recommended Candidates**
+    **Top 100 AI Recommended Candidates**
     """)
     medals = [
         "🥇",
         "🥈",
         "🥉"]
 
-    for i, result in enumerate(results[:10]):
+    for i, result in enumerate(results[:100]):
         candidate = next(
             c for c in candidates
             if c["candidate_id"] == result["candidate_id"]
