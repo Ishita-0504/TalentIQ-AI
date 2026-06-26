@@ -335,12 +335,7 @@ Please include:
         "reasoning": "; ".join(reasons[:3])
     })
     submission_df = pd.DataFrame(submission_rows)
-    import os
-    OUTPUT_FILE = os.path.join(os.getcwd(), "ranked_candidates.csv")
-    submission_df.to_csv(
-      OUTPUT_FILE,
-      index=False
-    )
+    csv = submission_df.to_csv(index=False).encode("utf-8")
     progress.progress(80)
     time.sleep(0.3)
     status.info("📊 Calculating Hybrid Scores...")
