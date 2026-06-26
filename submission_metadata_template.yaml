@@ -1,0 +1,87 @@
+# Redrob Hackathon — Submission Metadata Template
+#
+# Copy this file to your repo root as `submission_metadata.yaml` and fill it in.
+# The fields here should match what you submit via the portal at upload time.
+# Stage 3 review uses this file to verify your portal metadata.
+
+# ============================================================================
+# Team identity
+# ============================================================================
+team_name: "TalentIQ-AI"  # Used in leaderboard and announcements
+
+primary_contact:
+  name: "Ishita Das"
+  email: "ishitadas8889@gmail.com"   # Used for all organizer communication
+  phone: "+91-9658852886        # Used for top-50 / top-10 outreach
+
+team_members:
+  - name: "Ishita Das"
+    email: "ishitadas8889@gmail.com"
+
+
+# ============================================================================
+# Code and reproducibility
+# ============================================================================
+github_repo: "https://github.com/Ishita-0504/TalentIQ-AI"
+# Required. Must be reachable. Private repos OK if you can grant organizer
+# access at Stage 3 (the email to add will be communicated then).
+
+sandbox_link: "https://talent-iq-ai--ishitadas8889.replit.app/"
+# Required. A working hosted environment where the ranker can be run on a small
+# candidate sample. See Section 10.5 of submission_spec.md for acceptable
+# platforms (HuggingFace Spaces, Streamlit Cloud, Replit, Colab, Docker, Binder).
+
+reproduce_command: "streamlit run app.py"
+# The single command that produces submission.csv from candidates.jsonl.
+# Should run end-to-end within 5 minutes on CPU with 16GB RAM and no network.
+
+# ============================================================================
+# Compute environment
+# ============================================================================
+compute:
+  platform: "Windows 10 (Local Machine)"                    # Or: "AWS EC2 c5.4xlarge", "Local Linux box", etc.
+  cpu_cores: 8                                  # Number of CPU cores used
+  ram_gb: 16                                    # Available RAM in GB
+  python_version: "3.12.5"                      # python --version
+  os: "windows10"                              # Or "Ubuntu 22.04 LTS", etc.
+  uses_gpu_for_inference: false                 # Must be false — see compute constraints
+  has_network_during_ranking: false             # Must be false — no API calls during ranking
+  pre_computation_required: true              # true if you pre-compute embeddings or train models offline
+  pre_computation_time_minutes: 10               # Approximate, if applicable
+
+# ============================================================================
+# AI tools declaration
+# ============================================================================
+# Transparency only — declared use is NOT penalized. Be honest. Stage 5 interview
+# may verify these declarations against your code; declarations that contradict
+# your code or your interview are flagged.
+ai_tools_used:
+  - "ChatGPT"        
+
+ai_usage_summary: |
+  Briefly describe how AI tools were used. 
+  ChatGPT was used to assist with debugging, code refinement, UI improvements, documentation, deployment guidance and architectural discussions. 
+  Candidate ranking is performed locally using precomputed sentence embeddings and a hybrid scoring algorithm without any LLM inference.
+
+# ============================================================================
+# Approach summary (optional but recommended)
+# ============================================================================
+methodology_summary: |
+  ≤200 word summary of your approach. Strongly recommended.
+
+  "TalentIQ AI is an explainable AI-powered candidate ranking system designed for recruiter workflows. 
+  The system first parses the job description to extract role, skills, education, and experience requirements. 
+  Candidate embeddings are precomputed offline using Sentence Transformers for fast CPU-based semantic retrieval. 
+  During inference, candidates are ranked using a hybrid scoring algorithm that combines semantic similarity (40%), experience (25%), skills (20%), and behavioural signals (15%). 
+  The application generates explainable reasoning for every shortlisted candidate and exports the Top 100 ranked candidates as a CSV. 
+  All ranking is performed locally without network access, making the solution efficient, reproducible, and suitable for real-time recruiter assistance."
+
+# ============================================================================
+# Declarations
+# ============================================================================
+declarations:
+  read_submission_spec: true        # I have read submission_spec.md in full
+  code_is_original_work: true       # My code is my team's original work (using AI as a tool is fine)
+  no_collusion: true                # I have not coordinated my submission with other teams
+  honeypot_check_done: false        # OPTIONAL — set true if you explicitly checked for honeypots in your ranking
+  reproduction_tested: true         # I have tested that my reproduce_command runs end-to-end
