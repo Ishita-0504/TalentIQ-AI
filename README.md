@@ -10,6 +10,9 @@ Traditional applicant tracking systems rely heavily on keyword matching and ofte
 
 TalentIQ AI addresses this problem by understanding the semantic meaning of job descriptions and candidate profiles. Instead of simple keyword filtering, the system evaluates candidates using a combination of semantic relevance, professional experience, skill alignment, and behavioral signals.
 
+🌐 Live Demo: 
+https://talent-iq-ai--ishitadas8889.replit.app/
+
 ---
 
 ## ✨ Key Features
