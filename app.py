@@ -729,7 +729,7 @@ unsafe_allow_html=True)
                 for reason in reasons:
                     st.success(reason)
                 st.markdown("---")
-    st.markdown("---")
+    st.markdown("---") 
     st.download_button(
     label="📥 Download Ranked Candidates CSV",
     data=csv,
