@@ -316,9 +316,11 @@ if st.button("🚀 Analyze Candidates"):
         "reasoning": "; ".join(reasons[:3])
     })
     submission_df = pd.DataFrame(submission_rows)
+    import os
+    OUTPUT_FILE = os.path.join(os.getcwd(), "ranked_candidates.csv")
     submission_df.to_csv(
-    "ranked_candidates.csv",
-    index=False
+      OUTPUT_FILE,
+      index=False
     )
     progress.progress(80)
     time.sleep(0.3)
