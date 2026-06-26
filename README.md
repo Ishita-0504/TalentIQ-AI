@@ -90,11 +90,15 @@ This helps recruiters understand why a candidate was recommended.
 
 ### Ranked Candidates
 
-![Ranking](screenshots/ranking.png)
+![Ranking](screenshots/rankingTop3.png)
+
+![Ranking](screenshots/rankingTop100.png)
 
 ### Candidate Snapshot
 
-![Candidate Snapshot](screenshots/candidate_snapshot.png)
+![Candidate Snapshot](screenshots/candidate_snapshot1.png)
+
+![Candidate Snapshot](screenshots/candidate_snapshot2.png)
 
 ---
 
