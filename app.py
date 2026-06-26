@@ -274,6 +274,25 @@ if st.button("🚀 Analyze Candidates"):
     if not job_description.strip():
         st.warning("Please paste a Job Description first.")
         st.stop()
+     analysis = analyze_job_description(job_description)
+    if (len(job_description.split()) < 20
+    or (
+        analysis["role"] in ["Unknown", "", None]
+        and len(analysis["skills"]) == 0
+       )
+    ):
+        st.error(
+              """
+⚠️ Invalid Job Description
+
+Please include:
+• Job title
+• Required skills
+• Experience requirements
+• Responsibilities
+"""
+        )
+        st.stop()
     import time
     status = st.empty()
     progress = st.progress(0)
