@@ -274,7 +274,11 @@ if st.button("🚀 Analyze Candidates"):
     if not job_description.strip():
         st.warning("Please paste a Job Description first.")
         st.stop()
+<<<<<<< HEAD
      analysis = analyze_job_description(job_description)
+=======
+    analysis = analyze_job_description(job_description)
+>>>>>>> b29b48e (Final submission updates)
     if (len(job_description.split()) < 20
     or (
         analysis["role"] in ["Unknown", "", None]
@@ -335,7 +339,13 @@ Please include:
         "reasoning": "; ".join(reasons[:3])
     })
     submission_df = pd.DataFrame(submission_rows)
+<<<<<<< HEAD
     csv = submission_df.to_csv(index=False).encode("utf-8")
+=======
+    csv = submission_df.to_csv(
+    index=False
+    ).encode("utf-8")
+>>>>>>> b29b48e (Final submission updates)
     progress.progress(80)
     time.sleep(0.3)
     status.info("📊 Calculating Hybrid Scores...")
@@ -347,8 +357,6 @@ Please include:
     status.empty()
     progress.empty()
     st.success("✅ Analysis Complete!")
-    analysis = analyze_job_description(job_description)
-    analysis["experience"] = extract_experience(job_description)
     st.markdown("## 🧠 AI Job Intelligence")
     col1,col2 = st.columns(2)
     col1.metric(
@@ -743,19 +751,33 @@ unsafe_allow_html=True)
                 for reason in reasons:
                     st.success(reason)
                 st.markdown("---")
+<<<<<<< HEAD
     st.markdown("---") 
+=======
+
+    st.markdown("---")
+
+>>>>>>> b29b48e (Final submission updates)
     st.download_button(
     label="📥 Download Ranked Candidates CSV",
     data=csv,
     file_name="ranked_candidates.csv",
     mime="text/csv",
     use_container_width=True,
+<<<<<<< HEAD
     )
+=======
+)
+>>>>>>> b29b48e (Final submission updates)
 st.markdown("""
                 ---
                 <div style="text-align:center;color:#94A3B8">
                 <h3>🧠 TalentIQ AI</h3>
                 AI-Powered Recruiter Intelligence Platform
                 Semantic Search • Hybrid Ranking • Explainable AI • Recruiter Copilot
+<<<<<<< HEAD
                 </div>""", unsafe_allow_html=True
                 )
+=======
+                </div>""", unsafe_allow_html=True)
+>>>>>>> b29b48e (Final submission updates)

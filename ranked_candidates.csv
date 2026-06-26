@@ -1,101 +1,101 @@
 candidate_id,rank,score,reasoning
-CAND_0061728,1,0.682,Good semantic match (43.4/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0055849,2,0.678,Good semantic match (42.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0062434,3,0.671,Good semantic match (46.2/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0020045,4,0.668,Good semantic match (41.1/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0050967,5,0.668,Relevant professional experience.; Possesses several required skills.; Highly active GitHub profile.
-CAND_0021261,6,0.667,Good semantic match (40.8/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0087288,7,0.667,Good semantic match (41.5/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0025347,8,0.666,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
-CAND_0054365,9,0.665,Good semantic match (41.3/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0038062,10,0.664,Good semantic match (43.5/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0062630,11,0.66,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
-CAND_0083986,12,0.658,Good semantic match (43.4/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0024440,13,0.656,Good semantic match (46.8/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0031663,14,0.655,Relevant professional experience.; Possesses several required skills.; Frequently viewed/saved by recruiters.
-CAND_0081916,15,0.654,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
-CAND_0056521,16,0.651,Good semantic match (42.4/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0019287,17,0.648,Good semantic match (44.4/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0085987,18,0.647,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
-CAND_0012501,19,0.645,Good semantic match (41.9/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0053476,20,0.645,Good semantic match (43.4/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0042941,21,0.644,Good semantic match (46.1/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0014178,22,0.643,Good semantic match (41.5/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0024885,23,0.641,Good semantic match (42.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0066822,24,0.64,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
-CAND_0012397,25,0.64,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
-CAND_0068229,26,0.639,Good semantic match (41.7/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0055974,27,0.639,Good semantic match (41.3/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0050805,28,0.639,Good semantic match (42.9/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0023567,29,0.638,Relevant professional experience.; Possesses several required skills.; Highly active GitHub profile.
-CAND_0061359,30,0.638,Relevant professional experience.; Possesses several required skills.; Frequently viewed/saved by recruiters.
-CAND_0092422,31,0.638,Relevant professional experience.; Possesses several required skills.; Frequently viewed/saved by recruiters.
-CAND_0025571,32,0.638,Good semantic match (66.8/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0079658,33,0.637,Good semantic match (40.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0019186,34,0.637,Good semantic match (43.3/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0086169,35,0.636,Relevant professional experience.; Possesses several required skills.; Frequently viewed/saved by recruiters.
-CAND_0087044,36,0.635,Good semantic match (40.6/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0073760,37,0.634,Good semantic match (41.8/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0049619,38,0.634,Good semantic match (40.6/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0016180,39,0.633,Good semantic match (43.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0015479,40,0.633,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
-CAND_0006716,41,0.633,Relevant professional experience.; Possesses several required skills.; Frequently viewed/saved by recruiters.
-CAND_0093592,42,0.632,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
-CAND_0088273,43,0.63,Relevant professional experience.; Possesses several required skills.; Frequently viewed/saved by recruiters.
-CAND_0036637,44,0.629,Good semantic match (40.9/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0035544,45,0.628,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
-CAND_0084550,46,0.628,Good semantic match (43.5/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0017449,47,0.628,Good semantic match (42.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0059824,48,0.627,Good semantic match (42.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0057806,49,0.627,Good semantic match (43.6/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0063257,50,0.626,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
-CAND_0002005,51,0.625,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
-CAND_0095849,52,0.624,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
-CAND_0097541,53,0.624,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
-CAND_0080681,54,0.623,Good semantic match (43.9/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0024434,55,0.622,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
-CAND_0099445,56,0.622,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
-CAND_0039673,57,0.622,Good semantic match (41.3/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0039039,58,0.622,Relevant professional experience.; Possesses several required skills.; Frequently viewed/saved by recruiters.
-CAND_0089318,59,0.621,Good semantic match (43.9/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0007232,60,0.621,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
-CAND_0037561,61,0.621,Good semantic match (41.9/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0073265,62,0.62,Good semantic match (42.8/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0075235,63,0.619,Good semantic match (43.3/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0035825,64,0.618,Good semantic match (41.8/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0022868,65,0.617,Good semantic match (40.6/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0075769,66,0.617,Good semantic match (44.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0014328,67,0.616,Good semantic match (44.6/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0075999,68,0.616,Good semantic match (42.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0054239,69,0.616,Good semantic match (45.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0004133,70,0.616,Relevant professional experience.; Possesses several required skills.; Frequently viewed/saved by recruiters.
-CAND_0014297,71,0.616,Good semantic match (41.6/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0019552,72,0.615,Relevant professional experience.; Possesses several required skills.; Highly active GitHub profile.
-CAND_0044381,73,0.615,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
-CAND_0004404,74,0.615,Good semantic match (41.9/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0020949,75,0.615,Good semantic match (43.1/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0020762,76,0.615,Good semantic match (40.6/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0074095,77,0.615,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
-CAND_0009577,78,0.614,Relevant professional experience.; Possesses several required skills.; Frequently viewed/saved by recruiters.
-CAND_0011297,79,0.614,Good semantic match (44.1/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0057373,80,0.614,Good semantic match (40.4/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0077682,81,0.614,Relevant professional experience.; Possesses several required skills.; Frequently viewed/saved by recruiters.
-CAND_0056859,82,0.614,Relevant professional experience.; Possesses several required skills.; Frequently viewed/saved by recruiters.
-CAND_0039573,83,0.613,Relevant professional experience.; Possesses several required skills.; Currently open to work.
-CAND_0043073,84,0.613,Good semantic match (45.1/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0062995,85,0.613,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
-CAND_0030326,86,0.613,Good semantic match (40.5/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0063637,87,0.613,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
-CAND_0040303,88,0.612,Relevant professional experience.; Possesses several required skills.; Frequently viewed/saved by recruiters.
-CAND_0079367,89,0.612,Good semantic match (44.4/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0030304,90,0.612,Good semantic match (43.4/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0042933,91,0.612,Good semantic match (42.6/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0046694,92,0.612,Relevant professional experience.; Possesses several required skills.; Frequently viewed/saved by recruiters.
-CAND_0013132,93,0.612,Good semantic match (41.2/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0095542,94,0.612,Relevant professional experience.; Possesses several required skills.; Frequently viewed/saved by recruiters.
-CAND_0029713,95,0.611,Good semantic match (40.3/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0048109,96,0.611,Good semantic match (40.2/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0019072,97,0.611,Good semantic match (45.4/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0090803,98,0.611,Good semantic match (40.1/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0092501,99,0.611,Good semantic match (43.3/100) with the job description.; Relevant professional experience.; Possesses several required skills.
-CAND_0006733,100,0.611,Good semantic match (42.8/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0081321,1,0.641,Good semantic match (46.5/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0092255,2,0.633,Good semantic match (52.1/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0039983,3,0.626,Good semantic match (44.9/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0080372,4,0.616,Good semantic match (45.4/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0086154,5,0.615,Good semantic match (53.1/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0003791,6,0.615,Good semantic match (49.3/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0010257,7,0.612,Good semantic match (48.1/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0067535,8,0.606,Good semantic match (46.8/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0032089,9,0.598,Good semantic match (51.9/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0061819,10,0.596,Good semantic match (42.9/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0013393,11,0.594,Good semantic match (44.8/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0003609,12,0.593,Good semantic match (48.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0025109,13,0.593,Good semantic match (47.7/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0055139,14,0.593,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
+CAND_0011297,15,0.593,Good semantic match (46.2/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0005324,16,0.592,Good semantic match (49.2/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0087766,17,0.587,Good semantic match (47.4/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0055974,18,0.586,Good semantic match (43.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0008978,19,0.585,Good semantic match (50.4/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0086801,20,0.585,Good semantic match (50.2/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0034164,21,0.583,Good semantic match (56.4/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0083307,22,0.582,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
+CAND_0080124,23,0.581,Good semantic match (60.2/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0058412,24,0.581,Good semantic match (40.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0050876,25,0.58,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
+CAND_0035825,26,0.58,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
+CAND_0037417,27,0.578,Good semantic match (55.4/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0042690,28,0.578,Good semantic match (46.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0031143,29,0.578,Good semantic match (51.8/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0059795,30,0.578,Good semantic match (48.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0029971,31,0.578,Good semantic match (50.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0032179,32,0.577,Good semantic match (46.7/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0017648,33,0.577,Good semantic match (41.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0074326,34,0.577,Good semantic match (51.3/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0068777,35,0.577,Good semantic match (50.9/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0088385,36,0.576,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
+CAND_0096823,37,0.576,Good semantic match (52.4/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0039754,38,0.576,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
+CAND_0048469,39,0.576,Good semantic match (44.5/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0040178,40,0.576,Good semantic match (52.3/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0026610,41,0.576,Good semantic match (40.4/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0054703,42,0.576,Good semantic match (46.7/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0057563,43,0.575,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
+CAND_0062425,44,0.574,Good semantic match (47.3/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0022614,45,0.574,Good semantic match (49.4/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0055992,46,0.574,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
+CAND_0001610,47,0.574,Good semantic match (41.6/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0031703,48,0.573,Good semantic match (47.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0007052,49,0.572,Good semantic match (47.7/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0052333,50,0.572,Good semantic match (52.8/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0077337,51,0.572,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
+CAND_0097357,52,0.572,Good semantic match (47.6/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0044262,53,0.57,Good semantic match (47.6/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0012501,54,0.568,Good semantic match (45.3/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0076970,55,0.568,Good semantic match (46.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0029496,56,0.568,Good semantic match (67.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0021808,57,0.567,Good semantic match (50.3/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0075915,58,0.567,Good semantic match (53.8/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0049540,59,0.567,Good semantic match (46.8/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0005509,60,0.567,Good semantic match (43.1/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0061795,61,0.567,Good semantic match (48.7/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0032271,62,0.566,Good semantic match (50.9/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0010149,63,0.566,Good semantic match (46.0/100) with the job description.; Relevant professional experience.; Strong recruiter engagement and profile quality.
+CAND_0094025,64,0.566,Good semantic match (51.9/100) with the job description.; Relevant professional experience.; Strong recruiter engagement and profile quality.
+CAND_0063171,65,0.565,Good semantic match (52.1/100) with the job description.; Relevant professional experience.; Strong recruiter engagement and profile quality.
+CAND_0064326,66,0.565,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
+CAND_0088878,67,0.565,Good semantic match (45.2/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0055571,68,0.564,Good semantic match (51.2/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0075522,69,0.563,Good semantic match (46.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0092568,70,0.563,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
+CAND_0023650,71,0.563,Good semantic match (56.7/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0044091,72,0.563,Good semantic match (49.6/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0042593,73,0.562,Good semantic match (45.9/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0011327,74,0.562,Good semantic match (51.0/100) with the job description.; Relevant professional experience.; Strong recruiter engagement and profile quality.
+CAND_0075529,75,0.562,Good semantic match (44.2/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0075491,76,0.561,Good semantic match (50.2/100) with the job description.; Relevant professional experience.; Strong recruiter engagement and profile quality.
+CAND_0005514,77,0.561,Good semantic match (47.5/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0072218,78,0.561,Good semantic match (45.6/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0078785,79,0.56,Good semantic match (47.3/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0077067,80,0.56,Good semantic match (46.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0057463,81,0.56,Good semantic match (49.8/100) with the job description.; Relevant professional experience.; Strong recruiter engagement and profile quality.
+CAND_0011432,82,0.559,Good semantic match (42.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0027090,83,0.559,Good semantic match (42.4/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0007046,84,0.558,Good semantic match (60.1/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0001218,85,0.558,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
+CAND_0078579,86,0.558,Good semantic match (53.9/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0098677,87,0.558,Good semantic match (46.3/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0004555,88,0.557,Good semantic match (48.3/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0024440,89,0.557,Good semantic match (44.5/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0057529,90,0.557,Good semantic match (52.2/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0032955,91,0.556,Good semantic match (43.4/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0077296,92,0.556,Good semantic match (49.7/100) with the job description.; Relevant professional experience.; Strong recruiter engagement and profile quality.
+CAND_0087357,93,0.556,Good semantic match (50.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0070398,94,0.556,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
+CAND_0061175,95,0.556,Good semantic match (40.0/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0043304,96,0.555,Good semantic match (51.3/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0004133,97,0.555,Good semantic match (50.4/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0093547,98,0.555,Relevant professional experience.; Possesses several required skills.; Strong recruiter engagement and profile quality.
+CAND_0000422,99,0.555,Good semantic match (52.3/100) with the job description.; Relevant professional experience.; Possesses several required skills.
+CAND_0013702,100,0.554,Good semantic match (65.1/100) with the job description.; Relevant professional experience.; Possesses several required skills.
