@@ -758,8 +758,6 @@ st.markdown("""
                 <h3>🧠 TalentIQ AI</h3>
                 AI-Powered Recruiter Intelligence Platform
                 Semantic Search • Hybrid Ranking • Explainable AI • Recruiter Copilot
-<<<<<<< HEAD
                 </div>""", unsafe_allow_html=True
                 )
-=======
->>>>>>> b29b48e (Final submission updates)
+
