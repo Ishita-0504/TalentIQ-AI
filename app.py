@@ -743,24 +743,15 @@ unsafe_allow_html=True)
                 for reason in reasons:
                     st.success(reason)
                 st.markdown("---")
-<<<<<<< HEAD
     st.markdown("---") 
-=======
 
-    st.markdown("---")
-
->>>>>>> b29b48e (Final submission updates)
     st.download_button(
     label="📥 Download Ranked Candidates CSV",
     data=csv,
     file_name="ranked_candidates.csv",
     mime="text/csv",
     use_container_width=True,
-<<<<<<< HEAD
     )
-=======
-
->>>>>>> b29b48e (Final submission updates)
 st.markdown("""
                 ---
                 <div style="text-align:center;color:#94A3B8">
