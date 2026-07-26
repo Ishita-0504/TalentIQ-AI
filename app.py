@@ -275,7 +275,6 @@ if st.button("🚀 Analyze Candidates"):
         st.warning("Please paste a Job Description first.")
         st.stop()
     analysis = analyze_job_description(job_description)
->>>>>>> b29b48e (Final submission updates)
     if (len(job_description.split()) < 20
     or (
         analysis["role"] in ["Unknown", "", None]
