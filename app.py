@@ -335,13 +335,9 @@ Please include:
         "reasoning": "; ".join(reasons[:3])
     })
     submission_df = pd.DataFrame(submission_rows)
-<<<<<<< HEAD
-    csv = submission_df.to_csv(index=False).encode("utf-8")
-=======
     csv = submission_df.to_csv(
     index=False
     ).encode("utf-8")
->>>>>>> b29b48e (Final submission updates)
     progress.progress(80)
     time.sleep(0.3)
     status.info("📊 Calculating Hybrid Scores...")
