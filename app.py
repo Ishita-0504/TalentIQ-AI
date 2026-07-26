@@ -1,6 +1,8 @@
 import streamlit as st
 import streamlit.components.v1 as components
 import plotly.graph_objects as go
+import os
+import gdown
 
 from src.hybrid_ranker import rank_candidates
 from src.explain import explain_candidate
@@ -8,9 +10,6 @@ from src.verdict import recruiter_verdict
 from src.embeddings_cache import load_candidates_with_embeddings
 from src.jd_parser import analyze_job_description, extract_experience
 @st.cache_data
-
-import os
-import gdown
 
 os.makedirs("data", exist_ok=True)
 
