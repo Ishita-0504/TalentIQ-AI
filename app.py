@@ -779,5 +779,4 @@ st.markdown("""
                 </div>""", unsafe_allow_html=True
                 )
 =======
-                </div>""", unsafe_allow_html=True)
 >>>>>>> b29b48e (Final submission updates)
