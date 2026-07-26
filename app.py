@@ -9,12 +9,11 @@ from src.explain import explain_candidate
 from src.verdict import recruiter_verdict
 from src.embeddings_cache import load_candidates_with_embeddings
 from src.jd_parser import analyze_job_description, extract_experience
-@st.cache_data
 
 os.makedirs("data", exist_ok=True)
 
-CANDIDATES_ID = "https://drive.google.com/file/d/1gA7UWhIcKTMVfI-6LmbKFIeVwITWL_V2/view?usp=sharing"
-EMBEDDINGS_ID = "https://drive.google.com/file/d/17hUb8uh4ygFeaYTOpoALbRLamZWZ1Hvs/view?usp=drive_link"
+CANDIDATES_ID = "1gA7UWhIcKTMVfI-6LmbKFIeVwITWL_V2"
+EMBEDDINGS_ID = "17hUb8uh4ygFeaYTOpoALbRLamZWZ1Hvs"
 
 if not os.path.exists("data/candidates.jsonl"):
     gdown.download(
@@ -29,7 +28,7 @@ if not os.path.exists("data/candidate_embeddings.pkl"):
         "data/candidate_embeddings.pkl",
         quiet=False
     )
-    
+
 @st.cache_resource
 def load_all_candidates():
     return load_candidates_with_embeddings()
