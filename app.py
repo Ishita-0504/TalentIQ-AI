@@ -274,8 +274,6 @@ if st.button("🚀 Analyze Candidates"):
     if not job_description.strip():
         st.warning("Please paste a Job Description first.")
         st.stop()
-
-     analysis = analyze_job_description(job_description)
 =======
     analysis = analyze_job_description(job_description)
 >>>>>>> b29b48e (Final submission updates)
